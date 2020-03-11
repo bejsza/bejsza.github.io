@@ -1,0 +1,77 @@
+h1{
+	//background-color: black;
+	color: green;
+	text-align: center;
+}
+
+#dheader{
+	font-family: comic sans ms ;
+	padding-top: 1px;
+	width: 100%;
+	height: 70px;
+	background-color: #f5d50a;	
+}
+article{
+	width: 100%;
+	background-color: lightgrey;
+}
+
+#article{
+	font-family: "Segoe";
+	padding-top: 30px;
+	width: 70%;
+	height: 400px;
+	background-color: lightgrey;
+	text-align: center;	
+	//margin-left: auto;
+	//margin-right: auto;
+	margin: 0 auto;
+}
+
+.songs{
+	font-family: "Segoe";
+	background-color:yellow;
+	border-style:solid;
+	border-color:black;
+	border-radius:10px;
+	width:25%;
+	height:33%;
+}
+.songs:hover{
+background-color:#f5d50a;
+}
+#song1, #song4{
+float:left;
+}
+#song2, #song5{
+	float:left;
+}
+#song3, #song6{
+	float:right;
+}
+#song4, #footer{
+	clear:both;
+}
+#footer{
+	background-color:darkgray;
+	padding:5px;
+	text-align:center;
+}
+
+
+.card {
+	width: 80%;
+	height: 53%;
+	margin: 10px;
+	font-size: 40px;
+	background: #66ff66;
+	float:left;
+}
+
+.box{
+	clear:both;
+}
+
+.card:hover {
+	background-color: #003300;
+}
