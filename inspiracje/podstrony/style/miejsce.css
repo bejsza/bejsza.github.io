@@ -1,0 +1,44 @@
+h1{
+					font-size: 40px;
+				}
+				
+				body{
+					font-family: arial;
+					background-color: #ffaacc;
+				}
+				
+				.title{
+					margin-top: 50px;
+					width: 90%;
+					height: 70px;
+					text-align: center;
+					background-color: white;
+					border-radius: 40px;
+					margin-left: 5%;
+					line-height: 400%;
+				}
+			
+				.text{
+					width: 40%;
+					min-height: 600px;
+					margin-left: 5%;
+					background-color: white;
+					border-radius: 40px;
+					margin-top: 40px;
+					float:left;
+					padding: 30px;
+				}
+				
+				.img{
+					margin-top: 40px;
+					width: 40%;
+					height: 500px;
+					float:left;
+					border-radius: 40px;
+					background-color: red;
+					margin-left: 30px;
+				}
+				#linkacz{
+	font-size: 30px;
+	
+}

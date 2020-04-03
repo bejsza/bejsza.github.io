@@ -1,0 +1,68 @@
+h1{
+	color:grey;
+	text-align:center;
+	font-size :50px ;
+}
+.menu{
+	background-image: url(obrazki/test.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	width:100%;
+}
+#kawałek{
+	transition-duration : 0.6s;
+background-color:#b2456700; 
+}
+#kawałek2{
+	transition-duration : 0.6s;
+background-color:#b2456700;
+}
+#kawałek3{
+	transition-duration : 0.6s;
+background-color:#b2456700;
+}
+#kawałek4{ 
+transition-duration : 0.6s;
+background-color:#b2456700;
+}
+#stopa{
+	text-align: center;
+}
+.stopa2{
+	text-align: center;
+}
+body {
+	font-family: Helvetica, Arial;
+	margin:0px;
+	background-color: #b5697355;
+}
+.bejowka{
+	Width:25%;
+	Height:400px;
+	Float:left;
+	Color: #ad5050;
+	font-size : 35px;
+    Text-align: center;
+	}
+#kawałek:hover {
+   Transition: 0.6s;
+   Background-color: #b2456733;
+}
+#kawałek2:hover {
+   Transition: 0.6s;
+   Background-color: #b2456733;
+}
+#kawałek3:hover {
+   Transition: 0.6s;
+   Background-color: #b2456733;
+}
+#kawałek4:hover {
+   Transition: 0.6s;
+   Background-color: #b2456733;
+}
+.text{
+	font-family: Arial;
+	color:b2456766
+}
