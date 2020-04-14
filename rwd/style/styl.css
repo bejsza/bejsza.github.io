@@ -1,0 +1,66 @@
+body
+{
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 60px;
+	font-weight: 600;
+	color: #C0D06F;
+	margin: 20px;
+}
+.duz
+{
+	font-weight: 800;
+}
+
+#tel
+{
+	height :2%;
+}
+.kafle
+{
+	text-align: center;
+}
+
+.kafle img
+{
+	width: 100%;
+	height: auto
+}
+
+.kafle p
+{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.kafle figcaption
+{
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+footer
+{
+	background-color: #563d7c;
+	text-align: center;
+	color: black;
+	margin-bottom: 0px;
+}
+#jan
+{
+	color: #ffaf00;
+}
+.bej
+{
+	font-style: italic;
+	color: #bfb8c2;
+}
+.podtytul
+{
+	
+}
