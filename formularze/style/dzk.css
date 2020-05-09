@@ -1,0 +1,22 @@
+body {background-color:191724;
+font-family: Arial, Helvetica, sans-serif;
+font-size :25px;
+color:"white";
+}
+#tytul
+{
+	margin-top:30px;
+	font-size:100px;
+	color:#b6f2ca;
+	text-align:center;
+	transition: 1s;
+}
+
+#powiado
+{
+	background-color: 353467;
+	font-size:20px;
+	color:#b6f2ca;
+	text-align:center;
+	transition: 1s;
+}
