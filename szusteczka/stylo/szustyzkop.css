@@ -1,0 +1,299 @@
+.container{
+    margin:auto;
+    background: #002f34;
+    font-size: 30px;
+    padding: 25px;
+    color:#22e4db;
+    max-width: 1200px;
+    min-width: 600px;
+    border-left-style: solid;
+    border-right: solid;
+}
+.paraolx{
+    background: url('../obr/oltlo.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:500px;
+    min-width: 200px;
+    margin: 20px;
+    
+}
+.paraolx2 {
+    background: url('../obr/allegroolx3.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    min-width: 200px;
+    height:500px;
+}
+
+.paraolx3 {
+    background: url('../obr/empiktlo.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    min-width: 200px;
+}
+.tekst{
+    z-index: 2;
+    position: relative;
+}
+#tytul{
+    font-size: 60px;
+    font-family: Verdana;
+    text-align: center;
+    color:#22e4db;
+    padding:10px;
+    transition:0.5s;
+    margin-bottom: 150px;
+    
+
+}
+#tytul:hover
+{
+    border-width: 4px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    transition:0.5s;
+    border-color: #22e4db;
+}
+body{
+    background: #002f34;
+    font-family: Verdana;
+    
+}
+#wprow{
+    padding-bottom: 50px;
+    font-size: 35px;
+    border-bottom-style: solid;
+    /*background-color: #22e4db; */
+    /* font-weight: bold; */
+}
+#zasad{
+
+}
+*{
+    margin:0;
+    list-style:none;
+    padding: 0;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+.nalesnik{
+    font-family: 'Montserrat', sans-serif;
+    margin:10px;
+
+}
+.nalesnik .navigejszyn{
+    width: calc(100%-20px);
+    height:160px;
+    position:fixed;
+    display:flex;
+    top:10px;
+}
+.alegeria{
+    width: 128px;
+    height:128px;
+    background: url("../obr/alelogo128.png") no-repeat;
+    transition: 0.3s;
+    padding-bottom: 20px;
+    cursor:
+}
+.alegeria:hover{
+    width: 128px;
+    height:128px;
+    background: url("../obr/alelogo128hover.png") no-repeat;
+    transition: 0.3s;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #22e4db;
+
+}
+.oelkeria{
+    width: 128px;
+    height:128px;
+    background: url("../obr/olelogo128.png") no-repeat;
+    transition: 0.3s;
+    padding-bottom: 20px;
+}
+.oelkeria:hover{
+    width: 128px;
+    height:128px;
+    background: url("../obr/olelogo128hover.png") no-repeat;
+    transition:0.3s;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #22e4db;
+}
+.elkeria{
+    width: 128px;
+    height:128px;
+    background: url("../obr/elologo128.png") no-repeat;
+    transition: 0.3s;
+    padding-bottom: 20px;
+}
+.elkeria:hover{
+    width: 128px;
+    height:128px;
+    background: url("../obr/elologo128hover.png") no-repeat;
+    transition:0.3s;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #22e4db;
+}
+
+
+
+
+.nalesnik .pasek{
+    position: fixed;
+    border-bottom-right-radius: 80px;
+  left: 10px;
+  background: #021a1d80;
+  width: 200px;
+  height: calc(70% - 10px);
+  border-bottom-left-radius: 20px;
+  transition: all 0.3s ease;
+  top:100px;
+  clip-path: ellipse(60px 40px at 50% 12%);
+  border-color: #22e4db;
+  border-left-style: solid;
+}
+
+.nalesnik .pasek:hover{
+
+clip-path: ellipse(230px 310px at 0% 30%);
+}
+
+.nalesnik .pasek ul li a{
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 1px;
+    color: #92a6e2;
+    white-space: nowrap;
+}
+.nalesnik .pasek ul li a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: #92a6e2;
+    display: none;
+  }
+
+  .nalesnik .pasek ul li a span.icon{
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .wrapper .sidebar ul li a span.zapowiadacz{
+    margin-right: 10px;
+    display: inline-block;
+  }
+.pasek li{
+    color: #22e4db;
+    text-align:center;
+    font-weight: bold;
+}
+.nalesnik .pasek ul li a span.opis{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+.wrap-collabsible {
+    margin-bottom: 1.2rem 0;
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
+  
+  .lbl-toggle {
+    display: block;
+  
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 1rem;
+  
+    color: #22e4db;
+    background: #002f34;
+  
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+  }
+  
+  .lbl-toggle:hover {
+    color: #22e4dacb;
+  }
+  
+  .lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+  
+  .toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+    text-align:center;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 100vh;
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .collapsible-content .content-inner {
+    color:#22e4db;
+    background: #021a1d80;
+    border-bottom: 1px solid #22e4db
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+  }
+
+  #gith{
+    text-align: center;
+    color: #22e4db;
+    font-weight: bold;
+  }
+
+  #prawo{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+#lekkie{
+  font-size: medium;
+  font-style: italic;
+}
